@@ -28,17 +28,18 @@ function Receipt() {
       <div className="content">
         <div className="flex">
           <p>MONTANT DÉCAISSÉ:</p>
-          <input type="number" name="dollar" className="width-40px" /> CAD
+          <input type="number" name="dollar" className="width-40px margin-left-2" /> 
+          <p className="margin-left-2">CAD</p>
         </div>
         <hr />
         <div className="flex">
           <p>EXPÉDIÉ À:</p>
-          <input type="text" name="expide" className="width-180px" />
+          <input type="text" name="expide" className="width-180px margin-left-2" />
         </div>
         <hr />
         <div className="flex">
           <p>PURPOSE:</p>
-          <select>
+          <select className="margin-left-2">
             <option value="">--Please choose an option--</option>
             <option value="25">25 dollars l’heure sans les produits </option>
             <option value="30">30 dollars l’heure avec les produits</option>
