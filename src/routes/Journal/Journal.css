@@ -1,0 +1,92 @@
+.form-container {
+    display: grid;
+    grid-template-rows: auto 2fr auto;
+    background-color:#ffffff;
+    border-radius: 50px;
+    margin: 1% 20%;
+    place-items: center;
+  }
+  
+  @media (max-width: 640px) {
+   
+    .form-container {
+  
+      margin: -4%;
+     
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #6b76ff;
+    color: #1E1E1F;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
+.casilla {
+    display: flex;
+    flex-direction: column;
+}
+
+.casilla_checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox_imagen {
+
+    display: flex;
+    flex-direction: row;
+    font-size: var(--sm);
+    padding: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.checkbox_imagen > img {
+    width: 80px;
+    height: 65px;
+}
+
+.margin-top-15px {
+    margin-top: 15px;
+}
+
+.Journal {
+    padding: 11px 33px;
+}
+
+.Journal label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.Journal textarea {
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.ecri_text{
+    height: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.repas_text{
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+
+
+@media (max-width: 640px) {
+    .Journal {
+        margin-top: 4px !important;
+        margin: 14%;
+        padding: 0;
+    }
+}
