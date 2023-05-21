@@ -23,7 +23,7 @@ import { Encabezado } from "./Encabezado";
 
 function Journal() {
   return (
-    <div className="form-container">
+    <div className="containerPrincipal">
       <Encabezado />
       <div className="Journal">
         <div className="">

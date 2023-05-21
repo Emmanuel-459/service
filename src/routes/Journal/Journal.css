@@ -1,17 +1,18 @@
-.form-container {
+.containerPrincipal{
+    margin: 0 auto !important;
+    width: 400px;
     display: grid;
-    grid-template-rows: auto 2fr auto;
     background-color:#ffffff;
     border-radius: 50px;
     margin: 1% 20%;
     place-items: center;
-  }
+}
   
   @media (max-width: 640px) {
    
-    .form-container {
+    .containerPrincipal {
   
-      margin: -4%;
+        margin: 38px auto!important;
      
     }
   }
