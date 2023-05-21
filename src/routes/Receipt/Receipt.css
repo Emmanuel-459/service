@@ -1,14 +1,29 @@
-section {
-    border: 5px solid;
-    padding: 10px;
-    background: white;
+.containerPrincipalReceipt{
+    margin: 40px auto !important;
+    width: 500px;
+    display: grid;
+    background-color:#ffffff;
+    border-radius: 20px;
+    place-items: center;
 }
-
-
+  
+  @media (max-width: 640px) {
+   
+    .containerPrincipalReceipt {
+  
+        margin: 38px auto!important;
+        width: auto;
+    }
+  }
+.content{
+    width: -webkit-fill-available;
+}
 .header {
     display: flex;
     flex-direction: row;
     place-content: space-between;
+    width: -webkit-fill-available;
+    margin: 10px;
 }
 
 .blue-header {
@@ -17,6 +32,7 @@ section {
     place-content: space-between;
     background: rgb(51, 43, 207);
     padding: 15px;
+    width: -webkit-fill-available;
 }
 
 .space-between {
@@ -26,15 +42,15 @@ section {
 }
 
 .padding-right {
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .flex {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-   
+    margin: 16px;
+    width: -webkit-fill-available;
 }
 
 .flex div {

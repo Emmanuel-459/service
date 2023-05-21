@@ -3,11 +3,11 @@ import "./Receipt.css";
 
 function Receipt() {
   return (
-    <section>
+    <div className="containerPrincipalReceipt">
       <div className="header">
         <div>
-          <h5>ENTRETIEN MÉNAGER</h5>
-          <h5>EDNA TRUJILLO</h5>
+          <h4>ENTRETIEN MÉNAGER</h4>
+          <h4>EDNA TRUJILLO</h4>
         </div>
         <div>
           <p>Receipts</p>
@@ -46,7 +46,7 @@ function Receipt() {
           </select>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
