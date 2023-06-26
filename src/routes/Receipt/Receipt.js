@@ -63,6 +63,7 @@ function Receipt() {
             <option value="25">25 dollars l’heure sans les produits </option>
             <option value="30">30 dollars l’heure avec les produits</option>
             <option value="35">35 dollars l’heure avec les produits</option>
+            <option value="60">60 dollars l’heure avec les produits</option>
           </select>
         </div>
       </div>
